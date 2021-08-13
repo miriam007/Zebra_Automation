@@ -1,0 +1,16 @@
+{
+  "name": "thezebrawebpagetests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nightwatch -e chrome"
+  },
+  "dependencies": {
+    "chromedriver": "*",
+    "dotenv-cli": "^2.0.0",
+    "geckodriver": "^1.16.2",
+    "nightwatch": "^1.1.10",
+    "selenium-server-standalone-jar": "3.141.5"
+  }
+}
